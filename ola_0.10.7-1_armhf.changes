@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Fri, 13 Jul 2018 10:56:00 +0100
+Source: ola
+Binary: libola-dev ola-python ola-rdm-tests ola libola1
+Architecture: source armhf all
+Version: 0.10.7-1
+Distribution: unstable
+Urgency: low
+Maintainer: Wouter Verhelst <wouter@debian.org>
+Changed-By: Peter Newman <bugs@pjnewman.co.uk>
+Description:
+ libola-dev - Open Lighting Architecture - development libraries
+ libola1    - Open Lighting Architecture - shared libraries
+ ola        - Open Lighting Architecture
+ ola-python - Open Lighting Architecture - Python Classes
+ ola-rdm-tests - Open Lighting Architecture - RDM Responder Tests
+Changes:
+ ola (0.10.7-1) unstable; urgency=low
+ .
+   * New upstream release
+Checksums-Sha1:
+ 125e925d04bdb28a727efa0da5def75ee0f24175 1516 ola_0.10.7-1.dsc
+ 9997443790dfa512cb2ef292078e17eec9bdf24d 3866200 ola_0.10.7.orig.tar.gz
+ 1446ed86c147cd46600495ea92bd31866e903cd8 11720 ola_0.10.7-1.debian.tar.xz
+ 7f5d008da8d712d76413c862e07eda0da41a4ee5 1642938 libola-dev_0.10.7-1_armhf.deb
+ 2c378d18210e29c811de1326777ffcb0be17ce08 21849916 libola1-dbgsym_0.10.7-1_armhf.deb
+ 220d83809397b81f945440bc74cf894112e9f85a 1124016 libola1_0.10.7-1_armhf.deb
+ b59fd855a61bf86f2b79e165625557e7c53c2b75 1886862 ola-dbgsym_0.10.7-1_armhf.deb
+ c3e5b315c7a993b3142e6223486984739ef1fdeb 41758 ola-python_0.10.7-1_all.deb
+ 17a2069247781d2c26fe8bd1f52450ded5b602b8 173450 ola-rdm-tests_0.10.7-1_all.deb
+ 0aca771957eae810708e831dd4b15601d270eb3f 8999 ola_0.10.7-1_armhf.buildinfo
+ 941707957aa9c82dc7c65ca3d2feaf7b6d0227fb 1516800 ola_0.10.7-1_armhf.deb
+Checksums-Sha256:
+ f86b1e34aead5a891ee7def41074f13a811063daaddde19d9da3e024dfd0f209 1516 ola_0.10.7-1.dsc
+ 47434d426b3d6769d87160b776ba499bcbdd5ed2857e4ee9fe4a279e4dbcc8ae 3866200 ola_0.10.7.orig.tar.gz
+ 4d76ea5d7fe3f1f6827cab7770cd71a481a3ad8ec140855785ffafc425733347 11720 ola_0.10.7-1.debian.tar.xz
+ 25197646686c9b9f73253b9393054b4d76762c47f5c176c7080c98123fd67522 1642938 libola-dev_0.10.7-1_armhf.deb
+ d109346207aa54f7c3dec2032e79fedcb9ddf61958a0b9f9b38e9d38e1570dbd 21849916 libola1-dbgsym_0.10.7-1_armhf.deb
+ 4e15958b3cd3e53a4be804e17e8816f6900eb3bb55491216866c615aa49c09fc 1124016 libola1_0.10.7-1_armhf.deb
+ b1312d075a9c314f6799cb734754d0cfb9b1b175a0d9b3e7e8158654fd209de9 1886862 ola-dbgsym_0.10.7-1_armhf.deb
+ 482239a791b52ad7ddbf8ccaa37b44fb22804d8ccd1f4b937db65eb2572f639e 41758 ola-python_0.10.7-1_all.deb
+ a94c1c6a217235d7606e801f37208b2619a642c969c1d55b39e970ad852ada83 173450 ola-rdm-tests_0.10.7-1_all.deb
+ 5aeb5d40e0adbd9ed634847ad9219b2ade43e682ec7fa425eaab9316c05e56f4 8999 ola_0.10.7-1_armhf.buildinfo
+ 07638230ecc3b6737e81899aacc388f2538a22e9f63eb0cdcc807c17f88b4077 1516800 ola_0.10.7-1_armhf.deb
+Files:
+ 893580f04d38eb957d6855b939140693 1516 libs optional ola_0.10.7-1.dsc
+ 2704550b0e1e05792f64836b55a3229b 3866200 libs optional ola_0.10.7.orig.tar.gz
+ 383722e841a686550741ef1bb587964e 11720 libs optional ola_0.10.7-1.debian.tar.xz
+ 43e1f1d306ae36359a54ff814f5ca3e5 1642938 libdevel optional libola-dev_0.10.7-1_armhf.deb
+ bfc2d569b8ae9a7951cdb3c1f23fb4b1 21849916 debug extra libola1-dbgsym_0.10.7-1_armhf.deb
+ 0aaa796facb325755153131b42777d1b 1124016 libs optional libola1_0.10.7-1_armhf.deb
+ bc1d000b04810d171c1a9898673fc527 1886862 debug extra ola-dbgsym_0.10.7-1_armhf.deb
+ a7ad897736cdcd0f135d9cac18979663 41758 libs optional ola-python_0.10.7-1_all.deb
+ c8745ab2359ae7426654fdfd0f1e9698 173450 libs optional ola-rdm-tests_0.10.7-1_all.deb
+ effd119628b0a1d1273bca6c614b81de 8999 libs optional ola_0.10.7-1_armhf.buildinfo
+ ba84a696ddde0606847abcb45ac58a26 1516800 electronics optional ola_0.10.7-1_armhf.deb
